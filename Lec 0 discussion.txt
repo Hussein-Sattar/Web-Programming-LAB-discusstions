@@ -1,0 +1,39 @@
+
+1. What is the web development and what are types of it?
+
+ans/: 
+
+Web Programming (or web development) is the art of constructing and maintaining web pages 
+for websites by a web developer (also known as a web engineer) to give the user what he needs from the 
+website.
+There 3 main types of web programming:
+
+1- Front-End Development
+2- back-End Development
+3- Full-stack Development
+
+#################################
+
+2. What is difference between web developers and web designers ??
+
+ans/: 
+
+- A Web designer is an IT professional who is responsible for designing the layout, visual appearance and the 
+usability of a website. Web designers must need good working knowledge of one or more of web designer 
+packages: like Dreamweaver, Photoshop, Fireworks, Flash. Also, it is recommended to know the basics of
+web development.
+
+- A Web Developer is the person who is responsible for Implement the design using programming language (turnning
+the scketch to code)
+
+#################################
+
+3. Is the best for web developer to be full stack development or just one type of development ??
+
+ans/: 
+
+It's up to the developer and his preferences, it's enough to learn one type of development 
+but if you do so you should be very professional at it.
+
+On the other hand, if you're an ambitious person it's better to learn full-stuck developement and have 
+hight skills at both client side and server side.

@@ -1,0 +1,49 @@
+1. What are the four tags required in every HTML page?
+
+ans:/
+- HTML Tag (root)
+- title 
+- Head Tag 
+- Body Tag 
+
+################################
+
+2. What is HTML emojis tags and write simple program to disply some emojis ?
+
+ans:/
+To let the browser understand that you are displaying a character, you must start the entity number with 
+&# and end it with ; (semicolon)
+
+Some Emoji Symbols in UTF-8 :
+🗻 &#128507;
+🗼 &#128508;
+🗽 &#128509;
+🗾 &#128510;
+🗿 &#128511;
+😀 &#128512;
+😁 &#128513;
+😂 &#128514;
+😃 &#128515;
+😄 &#128516;
+😅 &#128517;
+
+simple programme with use of Emojies
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<p> This is a laghing Emoji : &#128514; </p>
+<p> This is a mountain Emoji : &#128507; </p>
+
+</body>
+</html>
+
+################################
+
+3. Make a personal web. Type a few paragraphs to introduce yourself to the world and use the HTML 
+tags you’ve learned in this Experiment to make them into a web page.
+
+ans:/
+
+The Programme file is in the same directory with the name "index.html".
