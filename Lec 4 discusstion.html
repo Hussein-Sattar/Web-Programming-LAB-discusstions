@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>discusstion 4</title>
+
+
+</head>
+
+<body>
+    <h1 style="color: red;"> Discussion 4 :</h1>
+    <h2 style="color: blue;">1- Not recommended to use tables for HTML layout, why?</h2>
+    <p style="width: 900px;">
+        ans//: Tables were originally intended for the display of tabular data, such as spreadsheets, and not for
+        creating the overall layout of a web page. However, in the early days of web development, developers often used
+        HTML tables to create page layouts because CSS support was limited, and it was challenging to achieve desired
+        layouts without tables.
+        Using tables for layout has several drawbacks: <br>
+        Semantics, Accessibility, Maintenance and Flexibility, Performance
+    </p>
+    <!-- ////////////////////////////////////// -->
+    <h2 style="color: blue;">2- Rewrite the above code in the “2. Procedure section” using semantic elements and
+        attributes but
+        without using the tables and CSS</h2>
+
+    <header style="background-color:#b5dcb3;">
+        <h1 style="margin-bottom: 1px;">Front-End Development Course</h1>
+    </header>
+    <main style="display: flex;">
+        <section style="background-color:#aaa; height: 200px; flex: 1;">
+            <p><b>Main Menu</b><br /> </p>
+            <ul style="list-style-type:none ;">
+                <li> HTML </li>
+                <li> CSS </li>
+                <li> JavaScript </li>
+            </ul>
+        </section>
+        <section style="background-color: #eee; height: 200px; flex: 1;">
+            <p> In this lab, students will study Front-End
+                Development course </p>
+        </section>
+    </main>
+    <footer>
+        <section>
+            <center>
+                <img src="1.jfif" alt="pic" style="width:50%">
+            </center>
+        </section>
+        <section style="background-color:#b5dcb3;">
+                <center>
+                    Copyright © 2023 Web Programming LAB
+                </center>
+        </section>
+    </footer>
+   
+
+
+</body>
+
+</html>
