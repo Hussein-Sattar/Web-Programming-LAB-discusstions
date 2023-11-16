@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lec 7</title>
+    <style>
+        .hoverable-table table{
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        .hoverable-table table :where(th,td){
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+        .hoverable-table table tr:hover{
+           background-color: #eee;
+        }
+
+        ul.outside{
+            list-style-position: outside;
+            width: 190px;
+        }   
+        ul.inside{
+            list-style-position: inside;
+            width: 190px;
+        }   
+
+        ul li{
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <h3 style="color: blue;">1. What are the generic font families? Explain in details with examples</h3>
+    <pre>Generic font families in CSS are keywords that are used to specify a broad category or type of font.
+         These families are more general and provide a fallback in case the specific font specified is not available on the user's system. 
+         The five generic font families are:
+
+         Serif, Sans-Serif, Monospace, Cursive and Fantasy.
+        </pre>
+    <h3 style="color: blue;">2. It is recommended to use each family of generic fonts in fallback style. Why?</h3>
+    <pre>in case the specific font specified is not available on the user's system.</pre>
+
+    <h3 style="color: blue;">3. How can you insert Hoverable Table by CSS? Show me by code.</h3>
+        <div class="hoverable-table">
+            <table>
+                <tr>
+                    <th>Name</th>
+                    <th>Age</th>
+                    <th>City</th>
+                </tr>
+                <tr>
+                    <td>Hussein</td>
+                    <td>21</td>
+                    <td>Baghdad</td>
+                </tr>
+                <tr>
+                    <td>Ali</td>
+                    <td>22</td>
+                    <td>Basra</td>
+                </tr>
+                <tr>
+                    <td>Ahmed</td>
+                    <td>28</td>
+                    <td>Karbala</td>
+                </tr>
+            </table>
+        </div>
+        <h3 style="color: blue;">4. Insert list markers by CSS, once outside the border and another inside it, as shown below</h3>
+        
+        <ul class="outside">
+            <li>Coffee - A brewed drink prepared from roasted coffee beans... </li>
+            <li>Tea</li>
+            <li>Coco-cola</li>
+        </ul>
+
+        <ul class="inside">
+            <li>Coffee - A brewed drink prepared from roasted coffee beans... </li>
+            <li>Tea</li>
+            <li>Coco-cola</li>
+        </ul>
+
+</body>
+</html>

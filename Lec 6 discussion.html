@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lec 6</title>
+    <style>
+        div.first p{
+            color: white;
+            padding-left: 10px;
+        }
+
+        div.first p:first-child{
+            background-color: #ec0f0f;
+        }
+        div.first p:nth-child(2){
+            background-color: #ec0f0fad;
+        }
+        div.first p:last-child{
+            background-color: #ec0f0f63;
+        }
+
+        div.second{
+            background-image: url(Images/friend-04.jpg);
+            height: 236px ;
+            background-repeat: repeat no-repeat;
+        }
+        div.third{
+            background-color: lightblue;
+            width: 160px;
+            padding: 10px;
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h3 style="color: blue; ">1. What are the differences between the opacity property and alpha channel in rgba or hsla?</h3>
+    <pre>
+        Opacity Property: Affects the entire element and its content with values from 0 (transparent) to 1 (opaque).
+         Inherited by child elements.
+        Alpha Channel (RGBA/HSLA): Controls the transparency of a specific color without affecting the entire element.
+         Values range from 0 (transparent) to 1 (opaque). Not inherited by child elements.</pre>
+
+    <h3 style="color: blue; ">3. Create 3 divisions in a web page</h3>
+
+    <div class="first">
+        <p>This is a paragraph</p>
+        <p>This is a paragraph</p>
+        <p>This is a paragraph</p>
+    </div>
+    <div class="second"></div>
+    <div class="third">
+        This is the third div with total width 200px
+        <!-- width = 160px + padding 10px each side(20px) + margin 10px each side(20px)= 200px -->
+    </div>
+</body>
+</html>

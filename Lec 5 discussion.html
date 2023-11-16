@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lec 5</title>
+    <style>
+        body {
+            margin: 0;
+        }
+
+        .container {
+            height: 100vh;
+            background-image: url(Images/bur.jpg);
+            background-size: cover;
+        }
+
+        header ul {
+            display: flex;
+            list-style-type: none;
+            justify-content: end;
+            margin-right: 50px;
+            color: white;
+        }
+
+        header ul li {
+            margin-right: 10px;
+            padding: 15px 10px;
+        }
+        main{
+            display: flex;
+            align-items: center;
+            height: calc(100vh - 80px);
+        }
+        main .text{
+            color: white;
+            width: 300px;
+            margin-left: 50px;
+        }
+    </style>
+</head>
+
+<body>
+    <h3 style="color: blue; ">1. What are the limitations of CSS ?</h3>
+    <pre style="margin: 0;">
+       1- Layout Complexity:
+        CSS can struggle with complex layouts, often requiring additional tools or frameworks.
+
+       2- No Variables/Constants:
+        It lacks native support for variables and constants, hindering code maintainability.
+
+       3- Global Scope:
+        Styles have a global scope, leading to naming conflicts and unintended style overrides.
+
+       4- Limited Dynamic Capabilities:
+        CSS is declarative and lacks dynamic features, making responsive design more challenging.
+
+       5- Cross-browser Compatibility:
+        Different browsers may interpret CSS rules differently, causing rendering inconsistencies.
+
+       6- Limited Expressiveness:
+        CSS is not a programming language, limiting its ability to implement complex logic.
+
+       7- Print Styling Challenges:
+        Styling for print media can be challenging due to printer variations and settings.
+
+       8- Performance Impact:
+        Large stylesheets can impact page loading times and overall performance.
+
+       9- Vertical Centering Challenges:
+        Achieving vertical centering can be cumbersome, though Flexbox has improved this.
+
+       10- No Inherent Logic Support:
+        CSS lacks native support for programming logic, making dynamic styling scenarios challenging.
+   </pre>
+    <h3 style="color: blue; ">2. How many ways can a CSS be integrated as a web page?</h3>
+    <pre>CSS comes with 3 flavors in creating style sheet. There are, internal , external and inline style sheet</pre>
+
+    <h3 style="color: blue; ">3. Create a home page for a ressturant with what you've learned from HTML & CSS</h3>
+    <div class="container">
+        <header>
+            <ul>
+                <li>Home</li>
+                <li>Menu</li>
+                <li>About</li>
+                <li>Contact</li>
+            </ul>
+            <main>
+                <div class="text">
+                    <h2>Welcome to our Resturant</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis  iusto, nam fugit! Quam, consequuntur officia?</p>
+                </div>
+            </main>
+        </header>
+    </div>
+
+</body>
+
+</html>
